@@ -22,7 +22,7 @@ Z,hp3,host3,production,user,/home/user/backup
 ```
 
 - The **Tag** value is used to name the local extraction folder (e.g. `hd1_20250519_bk` for the backup retrieved from host1 in the development environment).
-- **Backup** is the path where the daily `.tar.gz` backup resides
+- **Backup** is the path where the `.tar.gz` backup resides
 
 ## 🧪 Usage
 
