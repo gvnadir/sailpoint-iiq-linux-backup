@@ -33,7 +33,7 @@ Copyright = '(c) GVNADIR. All rights reserved.'
 Description = 'Interactively connect to a selected SailPoint IIQ environment on Linux, download the latest backup, and optionally extract and parse its contents.'
 
 # Minimum version of the PowerShell engine required by this module
-# PowerShellVersion = ''
+PowerShellVersion = '7.0'
 
 # Name of the PowerShell host required by this module
 # PowerShellHostName = ''
