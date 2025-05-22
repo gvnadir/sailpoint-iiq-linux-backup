@@ -16,13 +16,16 @@ Place a CSV configuration file at `$HOME\Temp\` named as you prefer (default exp
 
 ```csv
 Name,Tag,Hostname,Environment,User,Backup
-X,hd1,host1,development,user,/home/user/backup
-Y,hs2,host2,staging,user,/home/user/backup
-Z,hp3,host3,production,user,/home/user/backup
+IdentityIQ Dev,iiq-dev,iiq-dev01.acme.local,development,spadmin,/opt/sailpoint/backup
+IdentityIQ Stage,iiq-stg,iiq-stg01.acme.local,staging,spadmin,/opt/sailpoint/backup
+IdentityIQ Prod,iiq-prd,iiq-prd01.acme.local,production,spadmin,/data/backups/sailpoint
 ```
 
-- The **Tag** value is used to name the local extraction folder (e.g. `hd1_20250519_bk` for the backup retrieved from host1 in the development environment).
+- The **Tag** value is used to name the local extraction folder (e.g. `iiq-dev_20250519_bk` for the backup retrieved from `iiq-dev01.acme.local` in the development environment).
 - **Backup** is the path where the `.tar.gz` backup resides
+
+> ℹ️ This module assumes that the SailPoint IdentityIQ instance on the target Linux host is configured to generate daily backups in the format `yyyyMMdd_backup.tar.gz`, stored in the backup path defined in your configuration CSV.  
+> Ensure the backup process is correctly in place and the file is available for the desired date.
 
 ## 🧪 Usage
 
