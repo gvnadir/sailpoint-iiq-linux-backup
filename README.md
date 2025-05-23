@@ -1,6 +1,6 @@
 # SailPoint IIQ Linux Backup
 
-PowerShell module to connect to a SailPoint IdentityIQ (IIQ) environment on Linux, download a selected backup (defaulting to the latest), and optionally extract and parse its XML components.
+PowerShell module that connects to a SailPoint IdentityIQ (IIQ) environment on Linux, downloads a specified backup (defaulting to the latest), and optionally extracts and parses its XML components.
 
 ## 🚀 Features
 
