@@ -52,6 +52,16 @@ Invoke-IIQBackup -Date 20250519
 ```powershell
 Invoke-IIQBackup -Date 20250519 -Application -Rule -Workflow
 ```
+## 📅 Selecting the Backup Date
+
+The `-Date` parameter lets you retrieve a backup for a specific date in the format `yyyyMMdd`.
+Example:
+
+```powershell
+Invoke-IIQBackup -Date 20250519
+```
+
+If not provided, the current system date is used by default.
 
 ## 🧩 Supported Switches
 
