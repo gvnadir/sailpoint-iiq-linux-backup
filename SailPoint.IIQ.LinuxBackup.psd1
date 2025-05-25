@@ -12,7 +12,7 @@
 RootModule = 'SailPoint.IIQ.LinuxBackup.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.0'
+ModuleVersion = '1.0.1'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -33,7 +33,7 @@ Copyright = '(c) GVNADIR. All rights reserved.'
 Description = 'Interactively connect to a selected SailPoint IIQ environment on Linux, download the latest backup, and optionally extract and parse its contents.'
 
 # Minimum version of the PowerShell engine required by this module
-PowerShellVersion = '7.0'
+# PowerShellVersion = ''
 
 # Name of the PowerShell host required by this module
 # PowerShellHostName = ''
