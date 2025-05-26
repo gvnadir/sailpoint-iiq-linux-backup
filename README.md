@@ -85,7 +85,6 @@ Parsed output is written by default to a subfolder named after each component (e
 
 ## 🔐 Requirements
 
-- PowerShell Core 7+
 - SSH access to the Linux machine with IdentityIQ
 - The backup file named in the format `yyyyMMdd_backup.tar.gz` for the specified date
 
